@@ -43,7 +43,7 @@ namespace WebBankingAPI
                     ValidateLifetime = false,
                     ValidateIssuerSigningKey = true,
                     ValidateAudience = false,
-                    IssuerSigningKey = SecurityKeyGenerator.GetSecurityKey(),
+                    IssuerSigningKey = SecurityKeyGenerator.GetSecurityKey()
                 };
             });
         }
